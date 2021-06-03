@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><%= fighter.name[0].toUpperCase() + fighter.name.substring(1) %></h1>
+    <img src="<%= fighter.image %>" alt="">
+
+    <h2>Antiairs - #1 priority, no really, do this and you win</h2>
+    <p><%= fighter.antiairs %></p>
+    <p>Get to know the ranges of the different antiairs. Some work from farther or closer away.</p>
+    <p>** People can't stop jumping at the beginning, stop that bs.</p>
+    
+    <h3>Pokes</h3>
+    <p><%= fighter.pokes %></p>
+    <p>You can make people ragequit just by keeping them away with pokes and antiairing. Get to know the ranges so you can hit them with just the tip</p>
+
+    <h3>BnB with light buttons</h3>
+    <p><%= fighter.bnbLight %></p>
+    <p>Quick and easy combo. Practice in training mode. First hit is a low so you can catch people not crouch blocking (not that anyone actually blocks at the lower levels)</p>
+
+    <h3>Regular BnB</h3>
+    <p><%= fighter.bnb %></p>
+    <p>Bread and butter combo. Learn it, practice it, love it. You will be doing this combo most of the time early on. Make your opponent block using the pokes and once they start blocking, walk closer and hit the bnb. If they get hit cancel into the special move, otherwise keep poking. You can also do this combo from a jump in, but we're trying to learn the game here. You can start throwing jump ins into your game later.</p>
+
+    <h3>Crush counter</h3>
+    <p><%= fighter.crushCounterEZ %></p>
+    <p>After you antiair every single jump and get some damage poking, sometimes your opponent will start hitting buttons like an animal. Hit this button to try to crush counter those buttons and if you get it, do the followup</p>
+
+    <h3>DP punish</h3>
+    <p><%= fighter.dpPunish %></p>
+    <p>The good ol' reliable EX DP. It's an invincible move that beats everything except for one thing: blocking. If you block one of these and see your opponent fly high into the air, get ready to smash their face in with your punish. They will think twice (maybe not actually) before doing it again</p>
+
+    <h3>Tick throw buttons</h3>
+    <p><%= fighter.tickThrowButtons %></p>
+    <p>You won't really need this early on, but hey let's show it anyways. Once in a full moon you'll find an opponent who actually blocks. If they block too much you throw them. Even rarer, you'll find someone who can seeminly stop all your throws. Hit one of your quick buttons and THEN throw, can usually catch those people.</p>
+
+    <h3>Knockdown pressure</h3>
+    <p>Again you don't really need this early on. When you knock someone down and you see that there's enough time to walk up to them, try to time your bnb just as they get up to hit them if they do anything but block. If they always block, throw them</p>
+</body>
+</html>

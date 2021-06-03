@@ -9,6 +9,7 @@ const logger = require('morgan')
 const methodOverride = require('method-override')
 
 const homeRoutes = require('./routes/home')
+const fighterRoutes = require('./routes/fighter')
 
 require('dotenv').config({ path: './config/.env' })
 
@@ -37,6 +38,7 @@ app.use(
 app.use(flash())
 
 app.use('/', homeRoutes)
+app.use('/fighters', fighterRoutes)
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is running lets go`)

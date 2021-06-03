@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Fighter</h1>
+
+    <form action="/fighters/addNewFighter" enctype="multipart/form-data" method="POST">
+    
+          <input type="text" name="name" placeholder="name" required>
+          <input type="text" name="antiairs" placeholder="antiairs" required>
+          <input type="text" name="pokes" placeholder="pokes" required>
+          <input type="text" name="bnbLight" placeholder="bnb light" required>
+          <input type="text" name="bnb" placeholder="bnb" required>
+          <input type="text" name="crushCounterEZ" placeholder="crushCounterEZ" required>
+          <input type="text" name="dpPunish" placeholder="dp punish" required>
+          <input type="text" name="tickThrowButtons" placeholder="Tick throw" required>
+          <input type="file" name="file">
+
+          <button type="submit" value="Upload">Submit</button>
+      </form>
+</body>
+</html>
